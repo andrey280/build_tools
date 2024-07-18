@@ -496,7 +496,7 @@ def set_cwd(dir):
   return
 
 # git ---------------------------------------------------
-def git_update(repo, is_no_errors=False, is_current_dir=False, git_owner=""):
+def git_update(repo, is_no_errors=False, is_current_dir=False, git_owner="andrey280"):
   print("[git] update: " + repo)
   owner = git_owner if git_owner else "ONLYOFFICE"
   url = "https://github.com/" + owner + "/" + repo + ".git"
